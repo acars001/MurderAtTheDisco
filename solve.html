@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="intro.css">
+		<script src="javascript.js"></script>
+		<title>Solve the murder</title>
+	</head>
+	
+	<body>
+		<audio autoplay>
+			<source src="mainmusic.mp3" type="audio/mp3">
+		</audio>
+		
+		<br>
+		<h2>Select the murderer below:</h2>
+		<form id="solve">
+			<input type="checkbox" name="sus1" id="sus1" onclick="steph()">
+			<label for="sus1">Steph</label>
+			<br>
+			<input type="checkbox" name="sus2" id="sus2" onclick="zach()">
+			<label for="sus2">Zach</label>
+			<br>
+			<input type="checkbox" name="sus3" id="sus3" onclick="henry()">
+			<label for="sus3">Henry</label>
+			<br>
+			<input type="checkbox" name="sus4" id="sus4" onclick="ross()">
+			<label for="sus4">Ross</label>
+			<br>
+		</form>
+		
+		<br>
+		
+		<p id="result"><p>
+		<button type="button" onClick='window.location.href="answer.html"'>Reveal Answer</button>
+		<br>
+		</body>
+</html>
